@@ -1,0 +1,10 @@
+# Data Science with Universal Probability  
+## Prof. Young-Han Kim  
+
+Prof. Young-Han Kim received his B.S. degree in Electrical Engineering from Seoul National University in 1996 and his Ph.D. degree in Electrical Engineering (M.S. degrees in Statistics and in Electrical Engineering) from Stanford University in 2006. Since then he has been on the faculty of the Department of Electrical and Computer Engineering at the University of California, San Diego, where he is currently a Professor. His research contributions have been in information theory, communication engineering, and data science.   
+
+In the part of prediction, there are two main method. Firstly is forward prediction, which means you stand here and use the information of tomorrow. The other is called backward prediction, using the history, which is much better than forward prediction. Similarly, universal probability is better than standard probability, which has to know the distribution of x. University probability assume q, independent from data, and assume our data belong to q(.).  
+
+In Bernoulli condition, the result is good. You can also regard every sequence of the same beginning as iid new sequences, which would be the features of a class and be used for classification. When you know the distribution of several families, actually you will get the max of every family. There is also context-tree models for unknown distribution. For different text sequences, you can choose the max tree, which comes from the real sequence, as the best model.   
+
+These kind of model can work very well in classification, to identify different types of data set. As for its speed and scalability, it also perform better than former methods. This model can also used to ensure the confidence of known classification, for example, the outlier detection. Discrete universal denoiser is used to remove the noise based on the unclear data and the surroundings of one true context and then use the method of denoise to reconstruct the real contexts, which is very similar to the true real contexts.   
